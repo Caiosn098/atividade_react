@@ -8,16 +8,13 @@ function App() {
 
   return (
     <>
-      <Home
-        titulo="Título"
-        texto="Teste texto."
-      />
-      <Contador
-      />
-      <Tarefa
-      />
-      <Login
-      />
+      <Home titulo="Título" texto="Teste texto." />
+      <hr/>
+      <Contador />
+      <hr/>
+      <Tarefa />
+      <hr/>
+      <Login />
     </>
   )
 }
