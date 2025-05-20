@@ -6,9 +6,9 @@ function Tarefa() {
 
     useEffect(() => {
         if (completed) {
-            setTarefa('Bota casaco!');
+            setTarefa('Parabéns! Você concluiu a tarefa!');
         }else{
-          setTarefa("Tira casaco!")
+          setTarefa("Conclua a tarefa!")
         }
     }, [completed]);
 
@@ -16,7 +16,7 @@ function Tarefa() {
     <div>
       <h2>Componente Tarefa</h2>
             <h3>{tarefa}</h3>
-            <p>Tira casaco!</p>
+            <p>Conclua a tarefa</p>
             <button onClick={() => setCompleted(!completed)}>Concluir Tarefa</button>
     </div>
   )
